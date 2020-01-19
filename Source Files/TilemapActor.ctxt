@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TilemapActor
+comment0.text=\r\n\ \ Loads\ a\ Tiled\ map\ file\ (*.tmx),\ extends\ Actor\ to\ automatically\ render.\r\n
+comment1.params=filename\ theStage
+comment1.target=TilemapActor(java.lang.String,\ com.badlogic.gdx.scenes.scene2d.Stage)
+comment1.text=\r\n\ \ Initialize\ Tilemap\ created\ with\ the\ Tiled\ Map\ Editor.\r\n
+comment2.params=propertyName
+comment2.target=java.util.ArrayList\ getRectangleList(java.lang.String)
+comment2.text=\r\n\ \ Search\ the\ map\ layers\ for\ Rectangle\ Objects\ that\ contain\ a\ property\ (key)\ called\ "name"\ with\ associated\ value\ propertyName.\r\n\ \ Typically\ used\ to\ store\ non-actor\ information\ such\ as\ SpawnPoint\ locations\ or\ dimensions\ of\ Solid\ objects.\r\n\ \ Retrieve\ data\ as\ object,\ then\ cast\ to\ desired\ type\:\ for\ example,\ float\ w\ \=\ (float)obj.getProperties().get("width").\r\n
+comment3.params=propertyName
+comment3.target=java.util.ArrayList\ getTileList(java.lang.String)
+comment3.text=\r\n\ \ Search\ the\ map\ layers\ for\ Tile\ Objects\ (tile-like\ elements\ of\ object\ layers)\r\n\ \ that\ contain\ a\ property\ (key)\ called\ "name"\ with\ associated\ value\ propertyName.\r\n\ \ Typically\ used\ to\ store\ actor\ information\ and\ will\ be\ used\ to\ create\ instances.\ \r\n
+comment4.params=dt
+comment4.target=void\ act(float)
+comment5.params=batch\ parentAlpha
+comment5.target=void\ draw(com.badlogic.gdx.graphics.g2d.Batch,\ float)
+numComments=6
