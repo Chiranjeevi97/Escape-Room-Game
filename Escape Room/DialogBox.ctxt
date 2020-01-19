@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DialogBox
+comment1.params=x\ y\ s
+comment1.target=DialogBox(float,\ float,\ com.badlogic.gdx.scenes.scene2d.Stage)
+comment2.params=width\ height
+comment2.target=void\ setDialogSize(float,\ float)
+comment3.params=text
+comment3.target=void\ setText(java.lang.String)
+comment4.params=scale
+comment4.target=void\ setFontScale(float)
+comment5.params=color
+comment5.target=void\ setFontColor(com.badlogic.gdx.graphics.Color)
+comment6.params=color
+comment6.target=void\ setBackgroundColor(com.badlogic.gdx.graphics.Color)
+comment7.params=
+comment7.target=void\ alignTopLeft()
+comment8.params=
+comment8.target=void\ alignCenter()
+numComments=9
